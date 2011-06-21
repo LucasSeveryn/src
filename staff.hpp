@@ -6,12 +6,12 @@
 class Staff : public Person{
 	public:
 		int getValueOfATip();
-		bool testForATip();
-		
+		bool tipTest();
+		Staff(string,int,int);
 	protected:
 	
 	private:
-		int tipChance; //0 - 100
-}
+		short int tipChance; //0 - 100
+};
 
 #endif

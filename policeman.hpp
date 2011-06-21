@@ -6,10 +6,13 @@
 class Policeman : public Person{
 	public:
 		bool catchTest();
+		Policeman(string, int, int,int);
 	protected:
 	
 	private:
-		int catchChance; //0 - 100
-}
+		short int catchChance; //0 - 100 //moznaby w ogole dac char ale brzydko wyglada :D
+		int bribeLimit;
+		int earned;
+};
 
 #endif

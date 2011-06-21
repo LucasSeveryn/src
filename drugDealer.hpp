@@ -7,10 +7,14 @@ class DrugDealer : public Person{
 	public:
 		int getValueOfATransaction();
 		bool transactionTest();
+		DrugDealer(string,int,int,int);
 	protected:
 	
 	private:
-		int transactionChance; //0 - 100
-}
+		short int transactionChance; //0 - 100
+		int moneyToOffer;
+		int earned;
+
+};
 
 #endif
