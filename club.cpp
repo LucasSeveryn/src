@@ -32,4 +32,7 @@ bool Club::isFull(){
 	return this->num_current==this->m;
 }
 
+Queue& Club::theQueue(){
+	return this->queue;
+}
 

@@ -37,7 +37,7 @@ to wait in the mob.
 2. A person can only get to the club if he/she wouldn't break any of club's rules.
 3. Drug Dealer can not be the first in the queue.
 4. There can not be more than 3 people of same gender in the first three places in the queue.
-5. If rule 5 is broken, the next person of opposite gender, should be moved to
+5. If rule 4 is broken, the next person of opposite gender, should be moved to
  the third place in the queue.
 6. Three person at the time try to move from the queue to the club.
 7. If a policeman (of both genders) gets a place next to a Drug Dealer, both 
