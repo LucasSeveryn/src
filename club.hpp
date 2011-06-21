@@ -28,7 +28,10 @@ public:
 	void setTick(int);
 	void setAgeLimit(int);
 
-	int getRatio();
+
+
+	bool checkRatio();
+	bool isFull();
 	int numberInside();
 
 private:
@@ -36,6 +39,9 @@ private:
 	int num_staff;
 	int num_women;
 	int num_men;
+
+	int m; //max number of people inside
+	int num_current;
 
 	int clubSize;
 

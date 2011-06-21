@@ -17,7 +17,8 @@ protected:
 public:
 	DateTime(string);
 	void printDateTime();
-
+	DateTime(){};
+	~DateTime(){};
 };
 
 #endif
