@@ -1,12 +1,13 @@
 #include <iostream>
 #include "club.hpp"
+#include "queue.hpp"
 #include "dateTime.hpp"
 
 
 using namespace std;
 
 Club::Club(string newName, int clubSize, int queueSize, int staffNumber,
-		int dealersNumber, string newNow) {
+		int dealersNumber, string newNow){
 	this->name=newName;
 	this->clubSize=clubSize;
 	this->num_staff=staffNumber;

@@ -12,6 +12,8 @@ class Person{
 		string getName();
 		int getAge();
 		gender getGender();
+		Person(){};
+		~Person(){};
 	
 	protected:
 	

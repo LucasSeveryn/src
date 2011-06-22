@@ -8,13 +8,7 @@
 using namespace std;
 
 DateTime::DateTime(string input){
-/*	string delims="/ :";
-	int args[6];
 
-	args[0]=atoi(strtok(input,delims));
-	for(int i=1;i<6;i++){
-		args[i]=atoi(strtok(NULL,delims));
-	}*/
 	string tmp;
 	string args2[6];
 	int c = 0;

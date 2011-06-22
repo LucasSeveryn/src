@@ -7,6 +7,7 @@
 #include "mob.hpp"
 #include "dateTime.hpp"
 #include "event.hpp"
+#include "node.hpp"
 
 using namespace std;
 
