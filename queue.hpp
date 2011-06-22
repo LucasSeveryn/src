@@ -21,12 +21,12 @@ public:
 
 class Queue{
 private:
-	int num_inqueue;
+	int numberOfelements;
 	int n;
 	Node head;
 public:
 	Queue(){};
-	Queue(Node);
+	Queue(Node,int);
 	void addToFront(Node);
 	Node peak();
 	Node pop();
