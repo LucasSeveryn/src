@@ -1,12 +1,24 @@
 #ifndef INC_EVENT_H
 #define INC_EVENT_H
+#include <stdio.h>
+#include <string>
+#include "gender.hpp"
 
-#include <string.h>
 using namespace std;
 
 class Event{
-public:
+private:
+	string name;
+	string type;
+
+	enum eventType{ENTER,LEAVE};
+	eventType eventType;
+
+	int age;
+	//gender gender;
 	//void parseEvent(string);
+public:
+
 };
 
 #endif

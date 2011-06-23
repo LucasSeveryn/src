@@ -26,10 +26,6 @@ int main(int argc, char *argv[]) {
 	list<Event> events;
 	Club theClub("Koko", sizeOfTheClub, sizeOfTheQueue, numberOfStaff,numberOfDrugDealers, "23/10/2011 01:00:00");
 
-
-
-
-
 	theClub.setTick(50);
 	theClub.setAgeLimit(36);
 
@@ -46,10 +42,10 @@ int main(int argc, char *argv[]) {
 				//read first line and get events number, and ticks to execute
 				getline(inputFile,line,' ');
 				eventsToRead=atoi(line.c_str());
-				cout << eventsToRead << " ";
+				cout << "number of events to read set to: " << eventsToRead << endl;
 				getline(inputFile,line);
 				numberOfTicks=atoi(line.c_str());
-				cout << numberOfTicks << endl;
+				cout << "number of ticks set to: " << numberOfTicks << endl;
 			}
 			while (inputFile.good()) {
 				getline(inputFile,line);

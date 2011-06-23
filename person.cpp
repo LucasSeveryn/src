@@ -26,3 +26,4 @@ int Person::getAge(){
 gender Person::getGender(){
 	return m_gender;
 }
+

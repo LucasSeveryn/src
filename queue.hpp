@@ -16,12 +16,13 @@ public:
 	Node(Person);
 	Node(){};
 	~Node(){};
+	bool present(string);
 };
 
 
 class Queue{
 private:
-	int numberOfelements;
+	int numberOfElements;
 	int n;
 	Node head;
 public:
@@ -30,6 +31,7 @@ public:
 	void addToFront(Node);
 	Node peak();
 	Node pop();
+	bool present(string);
 
 	~Queue(){};
 };

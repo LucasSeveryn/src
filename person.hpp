@@ -8,7 +8,7 @@ using namespace std;
 class Person{
 	public:
 		Person(string, int);
-	
+		string getType();
 		string getName();
 		int getAge();
 		gender getGender();

@@ -2,6 +2,7 @@
 #define INC_POLICEMAN_H
 
 #include "person.hpp"
+#include "queue.hpp"
 
 class Policeman : public Person{
 	public:
@@ -13,6 +14,7 @@ class Policeman : public Person{
 		short int catchChance; //0 - 100 //moznaby w ogole dac char ale brzydko wyglada :D
 		int bribeLimit;
 		int earned;
+		Queue dealerFriends;
 };
 
 #endif
